@@ -6,8 +6,8 @@ const JobsScreen = () => {
   const [loading, setLoading] = useState(true);
 
   const API_ID = 'b981b9e2'; //api id for displaying jobs
-  const API_KEY = '25fd2468d0cfe2c041214b4ffff857fc'; //api key
-  const API_URL = `http://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=10`; //api root url and endpoint
+  const API_KEY = '**********************'; //api key
+  const API_URL = `************************************************`; //api root url and endpoint
 
   useEffect(() => {
     const fetchJobs = async () => {
